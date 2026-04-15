@@ -1,0 +1,7 @@
+site_name: BONDE Docs
+nav:
+  - Home: index.md
+  - Funil de vendas:
+    - Etapa 1 – Aquisição e Qualificação Inicial (ActiveCampaign Native): funil-de-vendas/Etapa 1 – Aquisição e Qualificação Inicial (ActiveCampaign Native).md
+    - Etapa 4 - Venda (Pós-Live).md: funil-de-vendas/Etapa 4 - Venda (Pós-Live).md
+theme: readthedocs
