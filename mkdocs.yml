@@ -4,4 +4,16 @@ nav:
   - Funil de vendas:
     - Etapa 1 – Aquisição e Qualificação Inicial (ActiveCampaign Native): funil-de-vendas/Etapa 1 – Aquisição e Qualificação Inicial (ActiveCampaign Native).md
     - Etapa 4 - Venda (Pós-Live).md: funil-de-vendas/Etapa 4 - Venda (Pós-Live).md
-theme: readthedocs
+  - Roteiro de testes:
+    - Perfil Contato (Aluno em potencial): roteiro-de-testes/Perfil Contato (Aluno em potencial).md
+  - Fluxogramas: fluxogramas.md
+
+theme: material
+
+# Extensões necessárias para o Mermaid
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
