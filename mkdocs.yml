@@ -7,6 +7,14 @@ nav:
   - Roteiro de testes:
     - Perfil Contato (Aluno em potencial): roteiro-de-testes/Perfil Contato (Aluno em potencial).md
   - Fluxogramas: fluxogramas.md
+  - Fluxos de automação:
+    - Visão Geral: fluxos-integracoes/Visão Geral.md
+    - Dependências e Impactos: fluxos-integracoes/Dependências e Impactos.md
+    - Fluxo 1 - Enriquecimento de Base AC: fluxos-integracoes/Fluxo 1 - Enriquecimento de Base AC.md
+    - Fluxo 2 - Gerenciamento de Acesso: fluxos-integracoes/Fluxo 2 - Gerenciamento de Acesso.md
+    - Fluxo 3 - Ativação de Conta: fluxos-integracoes/Fluxo 3 - Ativação de Conta.md
+    - Fluxo 4 - Desativação de Conta: fluxos-integracoes/Fluxo 4 - Desativação de Conta.md
+    - Fluxo 5 - Sincronização de Perfil: fluxos-integracoes/Fluxo 5 - Sincronização de Perfil.md
 
 theme: material
 
