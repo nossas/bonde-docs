@@ -15,7 +15,7 @@ O **N8N** funciona como o **hub central de integrações**, permitindo:
 ## Integrações Principais
 
 | Fluxo | Gatilho | Sistema de Origem | Ações Realizadas |
-|----|----|----|----|----|
+|----|----|----|----|
 | **Checkout Hotmart -> ActiveCampaign:<br/>Enriquecimento da Base de Contatos** | - Assinatura aprovada/compra confirmada;<br/>- Assinatura cancelada | Hotmart (Webhook) | Atualiza os dados e metadados do lead no ActiveCampaign com base na alteração de status de assinatura da Hotmart |
 | **Checkout Hotmart -> Keycloak:<br/>Gerenciamento de Acesso** | - Assinatura aprovada/compra confirmada;<br/>- Assinatura cancelada | Hotmart (Webhook) | - Cria o usuário no Keycloak;<br/>- Concede e remove acesso à Circle via grupos do Keycloak |
 | **Ativação de Conta: Integração Keycloak + Circle** | Usuário é **adicionado** ao grupo de acesso 'Assinantes Circle' no Keycloak | Postgres (Trigger) / Keycloak| Vincula o usuário no Circle a atualiza os atributos no Keycloak |
